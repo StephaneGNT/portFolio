@@ -1,0 +1,284 @@
+@font-face{
+  font-family: TitleFont;
+  src: url("../font/titleFont.ttf") format("truetype");
+}
+@font-face {
+font-family: 'BouWeste';
+src: url("font/BouWeste.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+@include media-breakpoint-up(sm)
+{
+  .some-class {
+    display: none;
+  }
+}
+
+body {
+ background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/wester10.jpg");
+  background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+img
+{
+ width: 75%;
+}
+
+p
+{
+  font-size: 1em;
+  color: white;
+  font-family: "BouWeste",arial,serif;
+}
+
+#container
+{
+  display: none;
+}
+
+#row1
+{
+  margin-top: 1em;
+}
+#row1bis{
+  margin-bottom: -4em;
+}
+
+#row2bis{
+  margin-bottom: 1em;
+}
+
+#row3bis{
+  margin-bottom: -3em;
+}
+/* #row4
+{
+  margin-bottom: 4em;
+}
+*/
+.rounded-circle
+{
+  width:10vw;
+  height:10vw;
+}
+.logo_wild
+{
+  width: 20px;
+  margin-left: 20px;
+}
+footer{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0%;
+  padding-right: 3%;
+  padding-left: 1%;
+}
+#droit_image
+{
+  color: white;
+  font-size: 10px;
+  font-family: arial,serif;
+}
+
+/*
+.wrapper {
+  max-width: 200px;
+}
+
+*/
+button {
+  border: none;
+  outline: none;
+}
+button:focus, button:active{
+  outline: none !important;
+  border: none !important;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#vignette-item1 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/stepha10.jpg");
+  background-size:cover;
+}
+
+#vignette-item1:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/stepha10.png");
+  background-size:cover;
+}
+
+#vignette-item2 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/zack11.jpg");
+  background-size:cover;
+}
+
+#vignette-item2:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/zack-c10.png");
+  background-size:cover;
+}
+
+#vignette-item3 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/hugo10.jpg");
+  background-size:cover;
+}
+
+#vignette-item3:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/hugo-c10.png");
+  background-size:cover;
+}
+
+#vignette-item4 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/mathie10.jpg");
+  background-size:cover;
+}
+
+#vignette-item4:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/mathie11.png");
+  background-size:cover;
+}
+
+#vignette-item5 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/magali10.png");
+  background-size:cover;
+}
+
+#vignette-item5:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/magali11.png");
+  background-size:cover;
+}
+
+#vignette-item6 {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/marion11.jpg");
+  background-size:cover;
+}
+
+#vignette-item6:hover {
+  background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/marion10.png");
+  background-size:cover;
+}
+
+.name{
+  font-size: 1.2rem;
+  width: 10vw;
+  margin-left:10%;
+  font-family: TitleFont; 
+}
+
+/*.name2 {
+  font-size: 1.5rem;
+  width: 10vw;
+}
+.name3 {
+  font-size: 1.5rem;
+  width: 10vw;
+}
+.name4 {
+  font-size: 1.5rem;
+  width: 10vw;
+}
+.name5 {
+  font-size: 1.5rem;
+  width: 10vw;
+}
+.name6 {
+  font-size: 1.5rem;
+  width: 10vw;
+}*/
+
+
+.Affiche{
+  height: 100%;
+}
+
+.divAffiche{
+  height: 90%;
+  margin-top: 5%;
+}
+.Modale
+{
+  background-image: url(../image/Fond.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+object{
+  width: 90%;
+  height: 80%;
+}
+#linkedInLogo{
+  width: 20%;
+  
+}
+#gitHubLogo{
+  width: 16%;
+  
+}
+.modal-body{
+  padding: 0;
+}
+@font-face{
+  font-family: TitleFont;
+  src: url("../font/titleFont.ttf") format("truetype");
+}
+p{
+  font-family: TitleFont;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  font-size: 1.4rem;
+  color: white;
+}
+.card-header{
+  padding: 0;
+  background-color: #F5F2C2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.card-header button{
+/*height: 40px;
+padding-bottom: 5px;*/
+margin-bottom: 5px;
+}
+.card-header img{
+  border-radius: 50%;
+  margin: 0;
+  padding:0;
+}
+.card-header span{
+  font-family: TitleFont;
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 5%;
+  color: #CAAA67;
+}
+.card-header span:active{
+  text-decoration: none;
+}
+.collapse{
+  height: auto;
+  background-image: url(../image/accordionBackground.jpg);
+  margin: 0;
+}
+.card-body{
+  height: 650px;
+  background-color: transparent;
+}
+.card-body object{
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  background-color: transparent;
+}
+img{
+  width: 20%;
+}
+#gitHubLogo{
+  width: 16%;
+}
