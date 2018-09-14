@@ -15,31 +15,28 @@ font-style: normal;
   }
 }
 
-body {
- background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/wester10.jpg");
+body{
+  background-image: url(../image/bodyBackground.jpg);
   background-repeat: no-repeat;
-    background-size: 100% 100%; 
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%; 
 }
 
-img
-{
+img{
  width: 75%;
 }
-
-p
-{
+p{
   font-size: 1em;
   color: white;
   font-family: "BouWeste",arial,serif;
 }
 
-#container
-{
+#container{
   display: none;
 }
 
-#row1
-{
+#row1{
   margin-top: 1em;
 }
 #row1bis{
@@ -58,13 +55,11 @@ p
   margin-bottom: 4em;
 }
 */
-.rounded-circle
-{
+.rounded-circle{
   width:10vw;
   height:10vw;
 }
-.logo_wild
-{
+.logo_wild{
   width: 20px;
   margin-left: 20px;
 }
@@ -73,14 +68,24 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
-  padding: 0%;
-  padding-right: 3%;
-  padding-left: 1%;
+  align-items: center;
+  padding: 0 5% !important;
+  margin: 0 !important;
+  width: 100%;
 }
-#droit_image
-{
-  color: white;
+footer p{
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2% !important;
+  }
+}
+#droit_image a{
+  color: darkslategrey;
   font-size: 10px;
   font-family: arial,serif;
 }
@@ -111,6 +116,7 @@ button:hover {
 #vignette-item1:hover {
   background-image: url("https://i13.servimg.com/u/f13/11/46/95/22/stepha10.png");
   background-size:cover;
+  filter: none;
 }
 
 #vignette-item2 {
@@ -166,32 +172,10 @@ button:hover {
 .name{
   font-size: 1.2rem;
   width: 10vw;
-  margin-left:10%;
   font-family: TitleFont; 
+  color: #CA3510;
+  text-shadow: 1px 1px 0px #2D2726;
 }
-
-/*.name2 {
-  font-size: 1.5rem;
-  width: 10vw;
-}
-.name3 {
-  font-size: 1.5rem;
-  width: 10vw;
-}
-.name4 {
-  font-size: 1.5rem;
-  width: 10vw;
-}
-.name5 {
-  font-size: 1.5rem;
-  width: 10vw;
-}
-.name6 {
-  font-size: 1.5rem;
-  width: 10vw;
-}*/
-
-
 .Affiche{
   height: 100%;
 }
@@ -220,10 +204,6 @@ object{
 }
 .modal-body{
   padding: 0;
-}
-@font-face{
-  font-family: TitleFont;
-  src: url("../font/titleFont.ttf") format("truetype");
 }
 p{
   font-family: TitleFont;
@@ -281,4 +261,8 @@ img{
 }
 #gitHubLogo{
   width: 16%;
+}
+/*.modal, .fade, .modal-content, .modal-lg, .modal-dialog, .modal-body, .Modale, .Modale row, #wanted1, #wanted2{
+  margin: -10px;
+  padding: 0;
 }
